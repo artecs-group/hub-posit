@@ -1,0 +1,179 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : PositMult
+Version: O-2018.06-SP4
+Date   : Wed Nov  2 22:48:14 2022
+****************************************
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+  Startpoint: Y[23] (input port)
+  Endpoint: R[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PositMult          ZeroWireload          tcbn45gsbwp12tml
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  Y[23] (in)                                              0.00       0.00 r
+  Y_decoder/X[23] (PositFastDecoder_32_2_F0_uid8)         0.00       0.00 r
+  Y_decoder/RegimeCounter/X[23] (Normalizer_ZO_30_30_30_F0_uid10)
+                                                          0.00       0.00 r
+  Y_decoder/RegimeCounter/U76/ZN (ND3XD16BWP12T)          0.01       0.01 f
+  Y_decoder/RegimeCounter/U111/ZN (IND3D4BWP12T)          0.02       0.02 f
+  Y_decoder/RegimeCounter/U18/ZN (OAI33XD4BWP12T)         0.01       0.04 r
+  Y_decoder/RegimeCounter/U413/ZN (ND2XD3BWP12T)          0.01       0.05 f
+  Y_decoder/RegimeCounter/U207/Z (MUX2XD2BWP12T)          0.02       0.07 r
+  Y_decoder/RegimeCounter/U269/ZN (IIND4D1BWP12T)         0.02       0.09 f
+  Y_decoder/RegimeCounter/U434/ZN (IOA21D2BWP12T)         0.02       0.11 f
+  Y_decoder/RegimeCounter/U36/ZN (CKND4BWP12T)            0.01       0.12 r
+  Y_decoder/RegimeCounter/U216/ZN (IIND4D4BWP12T)         0.02       0.13 f
+  Y_decoder/RegimeCounter/U99/ZN (DCCKND4BWP12T)          0.01       0.14 r
+  Y_decoder/RegimeCounter/U249/ZN (TPNR2D2BWP12T)         0.01       0.14 f
+  Y_decoder/RegimeCounter/U248/ZN (INVD1P75BWP12T)        0.01       0.15 r
+  Y_decoder/RegimeCounter/U6/ZN (ND2D3BWP12T)             0.01       0.16 f
+  Y_decoder/RegimeCounter/U318/ZN (ND2XD3BWP12T)          0.01       0.16 r
+  Y_decoder/RegimeCounter/U431/Z (OR3XD4BWP12T)           0.01       0.18 r
+  Y_decoder/RegimeCounter/U4/ZN (CKND4BWP12T)             0.01       0.19 f
+  Y_decoder/RegimeCounter/U161/ZN (AOI22D2BWP12T)         0.02       0.20 r
+  Y_decoder/RegimeCounter/U47/ZN (ND3D3BWP12T)            0.01       0.21 f
+  Y_decoder/RegimeCounter/U198/ZN (ND2D2BWP12T)           0.01       0.22 r
+  Y_decoder/RegimeCounter/U421/Z (XOR2XD8BWP12T)          0.02       0.24 f
+  Y_decoder/RegimeCounter/U5/Z (MUX2D4BWP12T)             0.02       0.26 r
+  Y_decoder/RegimeCounter/U355/ZN (RCIAO21D1BWP12T)       0.02       0.28 r
+  Y_decoder/RegimeCounter/U178/ZN (OAI221XD4BWP12T)       0.02       0.31 f
+  Y_decoder/RegimeCounter/R[25] (Normalizer_ZO_30_30_30_F0_uid10)
+                                                          0.00       0.31 f
+  Y_decoder/Frac[25] (PositFastDecoder_32_2_F0_uid8)      0.00       0.31 f
+  FracMultiplier/Y[25] (IntMultiplier_F0_uid12)           0.00       0.31 f
+  FracMultiplier/mult_318/B[25] (IntMultiplier_F0_uid12_DW02_mult_0)
+                                                          0.00       0.31 f
+  FracMultiplier/mult_318/U281/Z (AN2XD2BWP12T)           0.02       0.32 f
+  FracMultiplier/mult_318/S2_2_24/CO (FA1D2BWP12T)        0.04       0.36 f
+  FracMultiplier/mult_318/S2_3_24/S (FA1D2BWP12T)         0.04       0.40 r
+  FracMultiplier/mult_318/S2_4_23/S (FA1D1BWP12T)         0.02       0.42 f
+  FracMultiplier/mult_318/U1055/CON (FCICOND1BWP12T)      0.02       0.44 r
+  FracMultiplier/mult_318/U1940/ZN (INVD1P75BWP12T)       0.00       0.44 f
+  FracMultiplier/mult_318/S2_6_22/CO (FA1D1BWP12T)        0.04       0.48 f
+  FracMultiplier/mult_318/S2_7_22/CO (FA1D2BWP12T)        0.04       0.52 f
+  FracMultiplier/mult_318/S2_8_22/CO (FA1D2BWP12T)        0.04       0.56 f
+  FracMultiplier/mult_318/U468/ZN (TPND2D0BWP12T)         0.01       0.57 r
+  FracMultiplier/mult_318/U1553/ZN (TPND3D1BWP12T)        0.01       0.58 f
+  FracMultiplier/mult_318/S2_10_22/S (FA1D2BWP12T)        0.04       0.62 r
+  FracMultiplier/mult_318/U1519/Z (XOR3XD4BWP12T)         0.03       0.65 f
+  FracMultiplier/mult_318/U190/ZN (TPND2D1BWP12T)         0.01       0.66 r
+  FracMultiplier/mult_318/U591/ZN (ND3D2BWP12T)           0.01       0.67 f
+  FracMultiplier/mult_318/S2_13_20/S (FA1D2BWP12T)        0.04       0.70 r
+  FracMultiplier/mult_318/U1837/CON (FCICOND1BWP12T)      0.02       0.72 f
+  FracMultiplier/mult_318/U108/ZN (INVD1P75BWP12T)        0.01       0.73 r
+  FracMultiplier/mult_318/S2_15_19/S (FA1D1BWP12T)        0.04       0.77 f
+  FracMultiplier/mult_318/U101/ZN (IND2XD4BWP12T)         0.01       0.77 r
+  FracMultiplier/mult_318/U1856/ZN (ND3XD3BWP12T)         0.01       0.78 f
+  FracMultiplier/mult_318/S2_17_18/CO (FA1D1BWP12T)       0.04       0.82 f
+  FracMultiplier/mult_318/S2_18_18/CO (FA1D1BWP12T)       0.04       0.85 f
+  FracMultiplier/mult_318/S2_19_18/CO (FA1D2BWP12T)       0.04       0.89 f
+  FracMultiplier/mult_318/U224/Z (XOR3XD4BWP12T)          0.03       0.92 f
+  FracMultiplier/mult_318/U1853/CON (FCICOND1BWP12T)      0.02       0.94 r
+  FracMultiplier/mult_318/U1855/ZN (INVD1P75BWP12T)       0.00       0.95 f
+  FracMultiplier/mult_318/S2_22_17/CO (FA1D1BWP12T)       0.04       0.98 f
+  FracMultiplier/mult_318/S2_23_17/CO (FA1D1BWP12T)       0.04       1.02 f
+  FracMultiplier/mult_318/S2_24_17/CO (FA1D1BWP12T)       0.04       1.06 f
+  FracMultiplier/mult_318/S2_25_17/CO (FA1D1BWP12T)       0.04       1.09 f
+  FracMultiplier/mult_318/S2_26_17/CO (FA1D1BWP12T)       0.04       1.13 f
+  FracMultiplier/mult_318/S2_27_17/CO (FA1D1BWP12T)       0.04       1.17 f
+  FracMultiplier/mult_318/S4_17/S (FA1D2BWP12T)           0.04       1.21 r
+  FracMultiplier/mult_318/U918/Z (XOR2XD8BWP12T)          0.02       1.23 f
+  FracMultiplier/mult_318/FS_1/A[43] (IntMultiplier_F0_uid12_DW01_add_6)
+                                                          0.00       1.23 f
+  FracMultiplier/mult_318/FS_1/U82/ZN (ND2D4BWP12T)       0.01       1.23 r
+  FracMultiplier/mult_318/FS_1/U123/ZN (OAI211D2BWP12T)
+                                                          0.02       1.25 f
+  FracMultiplier/mult_318/FS_1/U13/ZN (TPOAI21D2BWP12T)
+                                                          0.01       1.26 r
+  FracMultiplier/mult_318/FS_1/U6/ZN (CKND2D1BWP12T)      0.01       1.27 f
+  FracMultiplier/mult_318/FS_1/U138/ZN (IND3D2BWP12T)     0.02       1.29 f
+  FracMultiplier/mult_318/FS_1/U22/ZN (TPND3D1BWP12T)     0.01       1.30 r
+  FracMultiplier/mult_318/FS_1/U58/ZN (TPND2D2BWP12T)     0.01       1.31 f
+  FracMultiplier/mult_318/FS_1/U304/ZN (XNR2XD8BWP12T)
+                                                          0.02       1.33 r
+  FracMultiplier/mult_318/FS_1/SUM[55] (IntMultiplier_F0_uid12_DW01_add_6)
+                                                          0.00       1.33 r
+  FracMultiplier/mult_318/PRODUCT[57] (IntMultiplier_F0_uid12_DW02_mult_0)
+                                                          0.00       1.33 r
+  FracMultiplier/R[57] (IntMultiplier_F0_uid12)           0.00       1.33 r
+  U206/ZN (INVD2P3BWP12T)                                 0.01       1.33 f
+  U202/ZN (ND2D4BWP12T)                                   0.01       1.34 r
+  U221/ZN (ND4D4BWP12T)                                   0.02       1.35 f
+  U213/ZN (CKND3BWP12T)                                   0.01       1.36 r
+  U215/ZN (TPND2D2BWP12T)                                 0.01       1.37 f
+  U228/ZN (ND2D2BWP12T)                                   0.01       1.37 r
+  U245/Z (OA221D4BWP12T)                                  0.03       1.40 r
+  add_0_root_add_0_root_add_592_2/B[4] (PositMult_DW01_add_0)
+                                                          0.00       1.40 r
+  add_0_root_add_0_root_add_592_2/U45/ZN (TPND2D2BWP12T)
+                                                          0.01       1.41 f
+  add_0_root_add_0_root_add_592_2/U64/ZN (IND2D1BWP12T)
+                                                          0.01       1.42 r
+  add_0_root_add_0_root_add_592_2/U99/ZN (TPAOI31D1BWP12T)
+                                                          0.01       1.43 f
+  add_0_root_add_0_root_add_592_2/U98/ZN (OAI21D1BWP12T)
+                                                          0.01       1.44 r
+  add_0_root_add_0_root_add_592_2/U102/ZN (TPAOI21D1BWP12T)
+                                                          0.01       1.45 f
+  add_0_root_add_0_root_add_592_2/U101/ZN (XNR2XD4BWP12T)
+                                                          0.02       1.47 r
+  add_0_root_add_0_root_add_592_2/SUM[7] (PositMult_DW01_add_0)
+                                                          0.00       1.47 r
+  PositEncoder/SF[7] (PositFastEncoder_32_2_F0_uid15)     0.00       1.47 r
+  PositEncoder/U80/ZN (INVD3BWP12T)                       0.00       1.47 f
+  PositEncoder/U79/Z (AO222D4BWP12T)                      0.04       1.51 f
+  PositEncoder/RegimeGenerator/S[4] (RightShifterSticky31_by_max_31_F0_uid17)
+                                                          0.00       1.51 f
+  PositEncoder/RegimeGenerator/U72/ZN (DCCKND8BWP12T)     0.01       1.52 r
+  PositEncoder/RegimeGenerator/U162/Z (OR3XD4BWP12T)      0.01       1.54 r
+  PositEncoder/RegimeGenerator/U222/ZN (INVD4BWP12T)      0.00       1.54 f
+  PositEncoder/RegimeGenerator/U47/Z (AO31XD1BWP12T)      0.03       1.57 f
+  PositEncoder/RegimeGenerator/U260/Z (OR3XD4BWP12T)      0.02       1.59 f
+  PositEncoder/RegimeGenerator/U259/ZN (AOI222D2BWP12T)
+                                                          0.02       1.61 r
+  PositEncoder/RegimeGenerator/U212/ZN (OAI211D2BWP12T)
+                                                          0.02       1.63 f
+  PositEncoder/RegimeGenerator/R[4] (RightShifterSticky31_by_max_31_F0_uid17)
+                                                          0.00       1.63 f
+  PositEncoder/add_469/A[3] (PositFastEncoder_32_2_F0_uid15_DW01_add_1)
+                                                          0.00       1.63 f
+  PositEncoder/add_469/U61/ZN (ND4D2BWP12T)               0.01       1.64 r
+  PositEncoder/add_469/U62/ZN (CKND2BWP12T)               0.01       1.65 f
+  PositEncoder/add_469/U116/Z (CKAN2D2BWP12T)             0.01       1.66 f
+  PositEncoder/add_469/U173/ZN (IND4D1BWP12T)             0.01       1.67 r
+  PositEncoder/add_469/U172/ZN (CKND2BWP12T)              0.01       1.68 f
+  PositEncoder/add_469/U130/ZN (TPND2D1BWP12T)            0.01       1.68 r
+  PositEncoder/add_469/U46/ZN (XNR2XD4BWP12T)             0.02       1.70 f
+  PositEncoder/add_469/SUM[14] (PositFastEncoder_32_2_F0_uid15_DW01_add_1)
+                                                          0.00       1.70 f
+  PositEncoder/U14/ZN (INVD2BWP12T)                       0.00       1.71 r
+  PositEncoder/U19/ZN (TPNR2D1BWP12T)                     0.00       1.71 f
+  PositEncoder/R[14] (PositFastEncoder_32_2_F0_uid15)     0.00       1.71 f
+  R[14] (out)                                             0.00       1.71 f
+  data arrival time                                                  1.71
+
+  max_delay                                               1.11       1.11
+  output external delay                                   0.00       1.11
+  data required time                                                 1.11
+  --------------------------------------------------------------------------
+  data required time                                                 1.11
+  data arrival time                                                 -1.71
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.60
+
+
+1

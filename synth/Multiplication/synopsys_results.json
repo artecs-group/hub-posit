@@ -1,0 +1,442 @@
+[
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 7468.305652,
+        "Power": 14.1893,
+        "Delay": 3.46,
+        "Energy": 49094.977999999996,
+        "ADP": 25840.33755592
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 7544.980847,
+        "Power": 14.7186,
+        "Delay": 3.53,
+        "Energy": 51956.657999999996,
+        "ADP": 26633.782389909997
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 7544.980847,
+        "Power": 14.729,
+        "Delay": 3.53,
+        "Energy": 51993.36999999999,
+        "ADP": 26633.782389909997
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 7555.329648,
+        "Power": 13.9037,
+        "Delay": 3.33,
+        "Energy": 46299.321,
+        "ADP": 25159.24772784
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 8145.446484,
+        "Power": 15.1352,
+        "Delay": 2.85,
+        "Energy": 43135.32,
+        "ADP": 23214.522479400002
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 8322.316908,
+        "Power": 15.3901,
+        "Delay": 2.5,
+        "Energy": 38475.25,
+        "ADP": 20805.79227
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 9046.968161,
+        "Power": 17.3583,
+        "Delay": 2.22,
+        "Energy": 38535.426,
+        "ADP": 20084.269317420003
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 10436.05935,
+        "Power": 21.0143,
+        "Delay": 2.0,
+        "Energy": 42028.6,
+        "ADP": 20872.1187
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 11840.438565,
+        "Power": 24.7435,
+        "Delay": 1.82,
+        "Energy": 45033.170000000006,
+        "ADP": 21549.598188300002
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 13266.691355,
+        "Power": 27.2299,
+        "Delay": 1.7,
+        "Energy": 46290.83,
+        "ADP": 22553.3753035
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 12620.596967,
+        "Power": 25.4849,
+        "Delay": 1.72,
+        "Energy": 43834.028,
+        "ADP": 21707.42678324
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 12552.388968,
+        "Power": 25.5347,
+        "Delay": 1.69,
+        "Energy": 43153.643000000004,
+        "ADP": 21213.537355919998
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 12621.537777,
+        "Power": 25.42,
+        "Delay": 1.73,
+        "Energy": 43976.600000000006,
+        "ADP": 21835.26035421
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 12427.968171,
+        "Power": 25.0561,
+        "Delay": 1.72,
+        "Energy": 43096.492,
+        "ADP": 21376.10525412
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 12142.43538,
+        "Power": 24.1923,
+        "Delay": 1.71,
+        "Energy": 41368.833,
+        "ADP": 20763.564499800003
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 12693.273772,
+        "Power": 25.5597,
+        "Delay": 1.71,
+        "Energy": 43707.087,
+        "ADP": 21705.49815012
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 12839.803365,
+        "Power": 26.1712,
+        "Delay": 1.71,
+        "Energy": 44752.75199999999,
+        "ADP": 21956.06375415
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 13034.078558,
+        "Power": 26.4982,
+        "Delay": 1.69,
+        "Energy": 44781.958000000006,
+        "ADP": 22027.59276302
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 12787.588978,
+        "Power": 25.801,
+        "Delay": 1.7,
+        "Energy": 43861.7,
+        "ADP": 21738.9012626
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 1100,
+        "Area": 13167.436956,
+        "Power": 26.8502,
+        "Delay": 1.7,
+        "Energy": 45645.34,
+        "ADP": 22384.642825199997
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 1150,
+        "Area": 12127.61777,
+        "Power": 24.2415,
+        "Delay": 1.73,
+        "Energy": 41937.79499999999,
+        "ADP": 20980.7787421
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 32,
+        "Freq.": 1200,
+        "Area": 12880.963378,
+        "Power": 26.1512,
+        "Delay": 1.73,
+        "Energy": 45241.575999999994,
+        "ADP": 22284.06664394
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 7715.736056,
+        "Power": 14.7932,
+        "Delay": 2.97,
+        "Energy": 43935.804000000004,
+        "ADP": 22915.73608632
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 7833.100853,
+        "Power": 15.3674,
+        "Delay": 2.98,
+        "Energy": 45794.852,
+        "ADP": 23342.64054194
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 7833.100853,
+        "Power": 15.3674,
+        "Delay": 2.98,
+        "Energy": 45794.852,
+        "ADP": 23342.64054194
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 7833.100853,
+        "Power": 15.3738,
+        "Delay": 2.98,
+        "Energy": 45813.924,
+        "ADP": 23342.64054194
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 7844.155253,
+        "Power": 14.7392,
+        "Delay": 2.85,
+        "Energy": 42006.72,
+        "ADP": 22355.84247105
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 8056.540866,
+        "Power": 15.1479,
+        "Delay": 2.5,
+        "Energy": 37869.74999999999,
+        "ADP": 20141.352165
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 9357.66736,
+        "Power": 18.4432,
+        "Delay": 2.22,
+        "Energy": 40943.904,
+        "ADP": 20774.0215392
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 10262.952173,
+        "Power": 20.1975,
+        "Delay": 2.0,
+        "Energy": 40395.0,
+        "ADP": 20525.904346
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 11602.651362,
+        "Power": 23.9651,
+        "Delay": 1.82,
+        "Energy": 43616.481999999996,
+        "ADP": 21116.82547884
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 12264.03376,
+        "Power": 25.2918,
+        "Delay": 1.67,
+        "Energy": 42237.306,
+        "ADP": 20480.9363792
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 13537.171358,
+        "Power": 28.217,
+        "Delay": 1.61,
+        "Energy": 45429.369999999995,
+        "ADP": 21794.84588638
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 13346.894566,
+        "Power": 27.4952,
+        "Delay": 1.63,
+        "Energy": 44817.176,
+        "ADP": 21755.43814258
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 13035.254574,
+        "Power": 26.5292,
+        "Delay": 1.67,
+        "Energy": 44303.763999999996,
+        "ADP": 21768.87513858
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 13140.388974,
+        "Power": 26.6558,
+        "Delay": 1.64,
+        "Energy": 43715.511999999995,
+        "ADP": 21550.23791736
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 12936.235373,
+        "Power": 26.3159,
+        "Delay": 1.67,
+        "Energy": 43947.553,
+        "ADP": 21603.51307291
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 12106.920197,
+        "Power": 24.0093,
+        "Delay": 1.69,
+        "Energy": 40575.717,
+        "ADP": 20460.69513293
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 13530.585774,
+        "Power": 27.57,
+        "Delay": 1.67,
+        "Energy": 46041.9,
+        "ADP": 22596.07824258
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 12422.793778,
+        "Power": 24.5954,
+        "Delay": 1.64,
+        "Energy": 40336.456,
+        "ADP": 20373.38179592
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 12701.270586,
+        "Power": 24.9945,
+        "Delay": 1.67,
+        "Energy": 41740.814999999995,
+        "ADP": 21211.12187862
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 1100,
+        "Area": 12325.185784,
+        "Power": 24.4592,
+        "Delay": 1.66,
+        "Energy": 40602.272,
+        "ADP": 20459.808401439997
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 1150,
+        "Area": 12532.396983,
+        "Power": 25.2349,
+        "Delay": 1.66,
+        "Energy": 41889.933999999994,
+        "ADP": 20803.77899178
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 32,
+        "Freq.": 1200,
+        "Area": 13371.120165,
+        "Power": 27.6747,
+        "Delay": 1.63,
+        "Energy": 45109.761,
+        "ADP": 21794.92586895
+    }
+]

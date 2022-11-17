@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : PositMult
+Version: O-2018.06-SP4
+Date   : Thu Nov  3 03:20:32 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+Number of ports:                          954
+Number of nets:                          6638
+Number of cells:                         5362
+Number of combinational cells:           5352
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                       1405
+Number of references:                      68
+
+Combinational area:              12701.270586
+Buf/Inv area:                     1475.409627
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 12701.270586
+Total area:                 undefined
+1

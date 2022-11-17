@@ -1,0 +1,182 @@
+[
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 0,
+		"Area": 2434.555221,
+		"Power": 2.4230,
+		"Delay": 3.86,
+		"Energy": 9352.779999999999,
+		"ADP": 9397.38315306
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 200,
+		"Area": 2390.102410,
+		"Power": 3.3339,
+		"Delay": 3.78,
+		"Energy": 12602.141999999998,
+		"ADP": 9034.587109799999
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 250,
+		"Area": 2390.102410,
+		"Power": 3.3392,
+		"Delay": 3.78,
+		"Energy": 12622.176,
+		"ADP": 9034.587109799999
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 300,
+		"Area": 2416.915211,
+		"Power": 2.7727,
+		"Delay": 3.33,
+		"Energy": 9233.091,
+		"ADP": 8048.327652630001
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 350,
+		"Area": 2525.577616,
+		"Power": 2.9709,
+		"Delay": 2.86,
+		"Energy": 8496.773999999998,
+		"ADP": 7223.15198176
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 400,
+		"Area": 2661.758424,
+		"Power": 3.2647,
+		"Delay": 2.50,
+		"Energy": 8161.75,
+		"ADP": 6654.39606
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 450,
+		"Area": 3110.284832,
+		"Power": 3.6865,
+		"Delay": 2.22,
+		"Energy": 8184.030000000002,
+		"ADP": 6904.832327040001
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 500,
+		"Area": 3162.028828,
+		"Power": 3.8749,
+		"Delay": 2.00,
+		"Energy": 7749.799999999999,
+		"ADP": 6324.057656
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 550,
+		"Area": 3520.238431,
+		"Power": 4.7020,
+		"Delay": 1.82,
+		"Energy": 8557.640000000001,
+		"ADP": 6406.833944420001
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 600,
+		"Area": 3739.915235,
+		"Power": 4.9834,
+		"Delay": 1.67,
+		"Energy": 8322.277999999998,
+		"ADP": 6245.65844245
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 650,
+		"Area": 3782.016035,
+		"Power": 5.0214,
+		"Delay": 1.54,
+		"Energy": 7732.956,
+		"ADP": 5824.3046939000005
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 700,
+		"Area": 3735.211235,
+		"Power": 5.0362,
+		"Delay": 1.43,
+		"Energy": 7201.7660000000005,
+		"ADP": 5341.35206605
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 750,
+		"Area": 4141.166442,
+		"Power": 5.7331,
+		"Delay": 1.33,
+		"Energy": 7625.023,
+		"ADP": 5507.75136786
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 800,
+		"Area": 4237.363239,
+		"Power": 5.8147,
+		"Delay": 1.28,
+		"Energy": 7442.816000000001,
+		"ADP": 5423.824945920001
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 850,
+		"Area": 4346.025643,
+		"Power": 6.1477,
+		"Delay": 1.26,
+		"Energy": 7746.102000000001,
+		"ADP": 5475.99231018
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 900,
+		"Area": 4451.395243,
+		"Power": 6.2239,
+		"Delay": 1.22,
+		"Energy": 7593.158,
+		"ADP": 5430.70219646
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 950,
+		"Area": 4520.779247,
+		"Power": 6.3361,
+		"Delay": 1.18,
+		"Energy": 7476.598,
+		"ADP": 5334.51951146
+	},
+	{
+		"Design": "Addition_HUB",
+		"Bits": 32,
+		"Freq.": 1000,
+		"Area": 5220.734450,
+		"Power": 7.5200,
+		"Delay": 1.11,
+		"Energy": 8347.2,
+		"ADP": 5795.0152395000005
+	}
+]
