@@ -23,7 +23,12 @@ do
 
 	cd "${w}bits/${dir}/"
 	printf ${w},${freq}, >> $R
-	grep -e 'data arrival' *timing.report | sed '1q' | awk 'NF>1{print $NF}' >> $R
+	grep -e 'data arrival' *timing.report | sed '1q' | awk 'NF>1{printf $NF}' >> $R
+	if [ $f = 'unconstrained' ]; then
+			echo ',MET' >> $R
+	else
+			grep -e 'slack' *timing.report | sed 's/[()]//g' | awk '{print "," $(NF-1)}' >> $R
+	fi
 	
 	cd ../..
 done

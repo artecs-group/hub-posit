@@ -2,7 +2,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 0,
+		"Freq": 0,
+		"Slack": "MET",
 		"Area": 7468.305652,
 		"Power": 14.1893,
 		"Delay": 3.46,
@@ -12,7 +13,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 200,
+		"Freq": 200,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7186,
 		"Delay": 3.53,
@@ -22,7 +24,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 250,
+		"Freq": 250,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7290,
 		"Delay": 3.53,
@@ -32,7 +35,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 300,
+		"Freq": 300,
+		"Slack": "MET",
 		"Area": 7555.329648,
 		"Power": 13.9037,
 		"Delay": 3.33,
@@ -42,7 +46,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 350,
+		"Freq": 350,
+		"Slack": "MET",
 		"Area": 8145.446484,
 		"Power": 15.1352,
 		"Delay": 2.85,
@@ -52,7 +57,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 400,
+		"Freq": 400,
+		"Slack": "MET",
 		"Area": 8322.316908,
 		"Power": 15.3901,
 		"Delay": 2.50,
@@ -62,7 +68,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 450,
+		"Freq": 450,
+		"Slack": "MET",
 		"Area": 9046.968161,
 		"Power": 17.3583,
 		"Delay": 2.22,
@@ -72,7 +79,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 500,
+		"Freq": 500,
+		"Slack": "MET",
 		"Area": 10436.059350,
 		"Power": 21.0143,
 		"Delay": 2.00,
@@ -82,7 +90,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 550,
+		"Freq": 550,
+		"Slack": "MET",
 		"Area": 11840.438565,
 		"Power": 24.7435,
 		"Delay": 1.82,
@@ -92,7 +101,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 600,
+		"Freq": 600,
+		"Slack": "VIOLATED",
 		"Area": 13266.691355,
 		"Power": 27.2299,
 		"Delay": 1.70,
@@ -102,7 +112,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 650,
+		"Freq": 650,
+		"Slack": "VIOLATED",
 		"Area": 12620.596967,
 		"Power": 25.4849,
 		"Delay": 1.72,
@@ -112,7 +123,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 700,
+		"Freq": 700,
+		"Slack": "VIOLATED",
 		"Area": 12552.388968,
 		"Power": 25.5347,
 		"Delay": 1.69,
@@ -122,7 +134,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 750,
+		"Freq": 750,
+		"Slack": "VIOLATED",
 		"Area": 12621.537777,
 		"Power": 25.4200,
 		"Delay": 1.73,
@@ -132,7 +145,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 800,
+		"Freq": 800,
+		"Slack": "VIOLATED",
 		"Area": 12427.968171,
 		"Power": 25.0561,
 		"Delay": 1.72,
@@ -142,7 +156,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 850,
+		"Freq": 850,
+		"Slack": "VIOLATED",
 		"Area": 12142.435380,
 		"Power": 24.1923,
 		"Delay": 1.71,
@@ -152,7 +167,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 900,
+		"Freq": 900,
+		"Slack": "VIOLATED",
 		"Area": 12693.273772,
 		"Power": 25.5597,
 		"Delay": 1.71,
@@ -162,7 +178,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 950,
+		"Freq": 950,
+		"Slack": "VIOLATED",
 		"Area": 12839.803365,
 		"Power": 26.1712,
 		"Delay": 1.71,
@@ -172,7 +189,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 1000,
+		"Freq": 1000,
+		"Slack": "VIOLATED",
 		"Area": 13034.078558,
 		"Power": 26.4982,
 		"Delay": 1.69,
@@ -182,7 +200,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 1050,
+		"Freq": 1050,
+		"Slack": "VIOLATED",
 		"Area": 12787.588978,
 		"Power": 25.8010,
 		"Delay": 1.70,
@@ -192,7 +211,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 1100,
+		"Freq": 1100,
+		"Slack": "VIOLATED",
 		"Area": 13167.436956,
 		"Power": 26.8502,
 		"Delay": 1.70,
@@ -202,7 +222,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 1150,
+		"Freq": 1150,
+		"Slack": "VIOLATED",
 		"Area": 12127.617770,
 		"Power": 24.2415,
 		"Delay": 1.73,
@@ -212,7 +233,8 @@
 	{
 		"Design": "Multiplication_Original",
 		"Bits": 32,
-		"Freq.": 1200,
+		"Freq": 1200,
+		"Slack": "VIOLATED",
 		"Area": 12880.963378,
 		"Power": 26.1512,
 		"Delay": 1.73,
