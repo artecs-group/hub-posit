@@ -7,6 +7,10 @@ set(SRC_FOLDER "${CMAKE_CURRENT_LIST_DIR}/src")
 # Include universal (posits) ##############################################
 include_directories("~/Documents/libs/universal/include")
 
+## Implement Parallelism
+#find_package(OpenMP)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
+
 # Sources
 add_executable(gen_lut ${SRC_FOLDER}/gen_lut.cpp)
 set_property(TARGET gen_lut PROPERTY CXX_STANDARD 17)

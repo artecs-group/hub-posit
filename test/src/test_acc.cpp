@@ -3,14 +3,17 @@
 #include <random>   // for random_device, uniform_X_distribution
 #include <universal/number/posit/posit.hpp>
 #include <universal/internal/bitblock/bitblock.hpp>
+// #include <omp.h>
 
 #include <assert.h>   // assert
 
 #define N 16
 #define EXTRA N+8
 #define SUPER 2*(EXTRA)
-#define SAMPLES 1000000 // 1 million
+#define SAMPLES 100000 // 1 million
+// #define SAMPLES 1000000 // 1 million
 // #define SAMPLES 100000000 // 100 million
+// #define SAMPLES 10000000000 // 1e10
 // #define DEBUG
 // #define DOUBLE_SAMPLES
 
@@ -20,7 +23,7 @@ using Posit_extra_t = sw::universal::posit<EXTRA,2>;
 using Posit_super_t = sw::universal::posit<SUPER,2>;    // We need an extra size accumulator so that rounding does not affect the result, and we can truncate the result
 
 template<typename Real_t1, typename Real_t2>
-long double get_error(Real_t1 golden, Real_t2 computed){
+inline long double get_error(Real_t1 golden, Real_t2 computed){
     // if (abs(golden) >= 1){
     //     // Relative error
     //     return std::abs(((long double)(golden) - (long double)(computed))) / std::abs((long double)(golden));
@@ -150,6 +153,7 @@ int main(int argc, char *argv[]) {
     // const double mmax = (1ULL << 4);
     // const double mmin = (1/mmax);
 
+// #pragma omp parallel for
     for (uint64_t i = 0; i < SAMPLES; i++){
         // Set random values as posits
         // a_fx = distr(gen);
@@ -227,7 +231,7 @@ int main(int argc, char *argv[]) {
             r_HUB = a_HUB;
         }
         else {
-            return -1;
+            // return -1;
         }
 
 
@@ -248,8 +252,22 @@ int main(int argc, char *argv[]) {
 #endif
         // std::cout << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) << std::endl;
         // std::cout << "\n\n" << (a_rnd<6917529027641081856ULL) << " " << (b_rnd<6917529027641081856ULL) << " " << extra_a << " " << extra_b << " \n";
+
+// // #pragma omp single
+// #pragma omp critical
+// {
         std::cout << r_gold <<  "," << r_posit <<  "," << r_HUB << "," << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) <<  "," << extra_a <<  "," << extra_b << std::endl;
+// }
+
+//     std::stringstream buf;
+//     buf << r_gold <<  "," << r_posit <<  "," << r_HUB << "," << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) <<  "," << extra_a <<  "," << extra_b << "\n";
+
+// #pragma omp critical
+//     std::cout << buf.rdbuf();
+
     }
+
+    
 //         a = a_rnd;
 //         ilsb_a = (a.iszero() || a.isnar()) ? 0ULL : 1ULL; // Keep exceptions
 //         // a_HUB.setbits(((a.get().to_ullong())<<1) | ilsb_a);
