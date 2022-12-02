@@ -10,8 +10,8 @@
 #define N 16
 #define EXTRA N+8
 #define SUPER 2*(EXTRA)
-#define SAMPLES 100000 // 1 million
-// #define SAMPLES 1000000 // 1 million
+// #define SAMPLES 10000 // 0.01 million
+#define SAMPLES 1000000 // 1 million
 // #define SAMPLES 100000000 // 100 million
 // #define SAMPLES 10000000000 // 1e10
 // #define DEBUG
