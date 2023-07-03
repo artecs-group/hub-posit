@@ -18,8 +18,8 @@
 		"Area": 2500.646407,
 		"Power": 3.5584,
 		"Delay": 4.27,
-		"Energy": 15194.367999999997,
-		"ADP": 10677.76015789
+		"Energy": 15194.368,
+		"ADP": 10677.7601579
 	},
 	{
 		"Design": "Addition_Original",
@@ -40,8 +40,8 @@
 		"Area": 2622.009612,
 		"Power": 3.0962,
 		"Delay": 3.33,
-		"Energy": 10310.346000000001,
-		"ADP": 8731.292007959999
+		"Energy": 10310.346,
+		"ADP": 8731.29200796
 	},
 	{
 		"Design": "Addition_Original",
@@ -74,7 +74,7 @@
 		"Power": 3.6948,
 		"Delay": 2.22,
 		"Energy": 8202.456,
-		"ADP": 6888.123696840001
+		"ADP": 6888.12369684
 	},
 	{
 		"Design": "Addition_Original",
@@ -95,7 +95,7 @@
 		"Area": 3887.856033,
 		"Power": 5.2689,
 		"Delay": 1.82,
-		"Energy": 9589.398000000001,
+		"Energy": 9589.398,
 		"ADP": 7075.89798006
 	},
 	{
@@ -129,7 +129,7 @@
 		"Power": 6.5278,
 		"Delay": 1.51,
 		"Energy": 9856.978,
-		"ADP": 6905.575555949999
+		"ADP": 6905.57555595
 	},
 	{
 		"Design": "Addition_Original",
@@ -150,7 +150,7 @@
 		"Area": 4962.249650,
 		"Power": 7.1381,
 		"Delay": 1.30,
-		"Energy": 9279.529999999999,
+		"Energy": 9279.53,
 		"ADP": 6450.924545
 	},
 	{
@@ -161,7 +161,7 @@
 		"Area": 5431.944058,
 		"Power": 7.8604,
 		"Delay": 1.28,
-		"Energy": 10061.312000000002,
+		"Energy": 10061.312,
 		"ADP": 6952.88839424
 	},
 	{
@@ -172,7 +172,7 @@
 		"Area": 5421.830454,
 		"Power": 7.9591,
 		"Delay": 1.25,
-		"Energy": 9948.875000000002,
+		"Energy": 9948.875,
 		"ADP": 6777.2880675
 	},
 	{
@@ -194,7 +194,403 @@
 		"Area": 5703.835263,
 		"Power": 8.3170,
 		"Delay": 1.26,
-		"Energy": 10479.420000000002,
+		"Energy": 10479.42,
 		"ADP": 7186.83243138
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 0,
+		"Slack": "MET",
+		"Area": 576.240003,
+		"Power": 0.5908,
+		"Delay": 1.79,
+		"Energy": 1057.532,
+		"ADP": 1031.46960537
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 200,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 250,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 300,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 350,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 400,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 450,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 500,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 550,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 600,
+		"Slack": "MET",
+		"Area": 567.537601,
+		"Power": 0.8508,
+		"Delay": 1.60,
+		"Energy": 1361.28,
+		"ADP": 908.0601616
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 650,
+		"Slack": "MET",
+		"Area": 567.772801,
+		"Power": 0.7294,
+		"Delay": 1.53,
+		"Energy": 1115.982,
+		"ADP": 868.69238553
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 700,
+		"Slack": "MET",
+		"Area": 594.115202,
+		"Power": 0.7685,
+		"Delay": 1.42,
+		"Energy": 1091.27,
+		"ADP": 843.64358684
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 750,
+		"Slack": "MET",
+		"Area": 624.926404,
+		"Power": 0.8597,
+		"Delay": 1.33,
+		"Energy": 1143.401,
+		"ADP": 831.15211732
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 800,
+		"Slack": "MET",
+		"Area": 699.484805,
+		"Power": 0.8933,
+		"Delay": 1.25,
+		"Energy": 1116.625,
+		"ADP": 874.35600625
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 850,
+		"Slack": "MET",
+		"Area": 830.491209,
+		"Power": 1.2515,
+		"Delay": 1.17,
+		"Energy": 1464.255,
+		"ADP": 971.67471453
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 900,
+		"Slack": "MET",
+		"Area": 922.454411,
+		"Power": 1.3374,
+		"Delay": 1.11,
+		"Energy": 1484.514,
+		"ADP": 1023.92439621
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 950,
+		"Slack": "MET",
+		"Area": 928.099210,
+		"Power": 1.3846,
+		"Delay": 1.05,
+		"Energy": 1453.83,
+		"ADP": 974.5041705
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 8,
+		"Freq": 1000,
+		"Slack": "MET",
+		"Area": 969.259211,
+		"Power": 1.4848,
+		"Delay": 1.00,
+		"Energy": 1484.8,
+		"ADP": 969.259211
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 0,
+		"Slack": "MET",
+		"Area": 1176.705608,
+		"Power": 1.2216,
+		"Delay": 2.89,
+		"Energy": 3530.424,
+		"ADP": 3400.67920712
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 200,
+		"Slack": "MET",
+		"Area": 1182.820802,
+		"Power": 1.7690,
+		"Delay": 2.65,
+		"Energy": 4687.85,
+		"ADP": 3134.4751253
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 250,
+		"Slack": "MET",
+		"Area": 1182.820802,
+		"Power": 1.7690,
+		"Delay": 2.65,
+		"Energy": 4687.85,
+		"ADP": 3134.4751253
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 300,
+		"Slack": "MET",
+		"Area": 1182.820802,
+		"Power": 1.7694,
+		"Delay": 2.65,
+		"Energy": 4688.91,
+		"ADP": 3134.4751253
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 350,
+		"Slack": "MET",
+		"Area": 1182.820802,
+		"Power": 1.7675,
+		"Delay": 2.65,
+		"Energy": 4683.875,
+		"ADP": 3134.4751253
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 400,
+		"Slack": "MET",
+		"Area": 1192.228802,
+		"Power": 1.4733,
+		"Delay": 2.49,
+		"Energy": 3668.517,
+		"ADP": 2968.64971698
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 450,
+		"Slack": "MET",
+		"Area": 1256.438406,
+		"Power": 1.5517,
+		"Delay": 2.22,
+		"Energy": 3444.774,
+		"ADP": 2789.29326132
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 500,
+		"Slack": "MET",
+		"Area": 1362.043210,
+		"Power": 1.7497,
+		"Delay": 2.00,
+		"Energy": 3499.4,
+		"ADP": 2724.08642
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 550,
+		"Slack": "MET",
+		"Area": 1540.560011,
+		"Power": 1.9673,
+		"Delay": 1.82,
+		"Energy": 3580.486,
+		"ADP": 2803.81922002
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 600,
+		"Slack": "MET",
+		"Area": 1682.385614,
+		"Power": 2.3494,
+		"Delay": 1.67,
+		"Energy": 3923.498,
+		"ADP": 2809.58397538
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 650,
+		"Slack": "MET",
+		"Area": 1925.112018,
+		"Power": 2.7174,
+		"Delay": 1.54,
+		"Energy": 4184.796,
+		"ADP": 2964.67250772
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 700,
+		"Slack": "MET",
+		"Area": 1759.296015,
+		"Power": 2.3906,
+		"Delay": 1.43,
+		"Energy": 3418.558,
+		"ADP": 2515.79330145
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 750,
+		"Slack": "MET",
+		"Area": 1864.665616,
+		"Power": 2.6276,
+		"Delay": 1.33,
+		"Energy": 3494.708,
+		"ADP": 2480.00526928
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 800,
+		"Slack": "MET",
+		"Area": 1979.208022,
+		"Power": 2.7733,
+		"Delay": 1.25,
+		"Energy": 3466.625,
+		"ADP": 2474.0100275
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 850,
+		"Slack": "MET",
+		"Area": 2092.339222,
+		"Power": 3.0209,
+		"Delay": 1.18,
+		"Energy": 3564.662,
+		"ADP": 2468.96028196
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 900,
+		"Slack": "MET",
+		"Area": 2219.112027,
+		"Power": 3.2417,
+		"Delay": 1.11,
+		"Energy": 3598.287,
+		"ADP": 2463.21434997
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 950,
+		"Slack": "MET",
+		"Area": 2147.846425,
+		"Power": 3.0586,
+		"Delay": 1.05,
+		"Energy": 3211.53,
+		"ADP": 2255.23874625
+	},
+	{
+		"Design": "Addition_Original",
+		"Bits": 16,
+		"Freq": 1000,
+		"Slack": "VIOLATED",
+		"Area": 2450.313628,
+		"Power": 3.8042,
+		"Delay": 1.02,
+		"Energy": 3880.284,
+		"ADP": 2499.31990056
 	}
 ]

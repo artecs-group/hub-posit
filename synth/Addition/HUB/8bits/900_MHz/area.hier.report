@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : area
+Design : PositAdder
+Version: O-2018.06-SP4
+Date   : Mon Jul  3 12:16:34 2023
+****************************************
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+Number of ports:                          190
+Number of nets:                           558
+Number of cells:                          393
+Number of combinational cells:            384
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         83
+Number of references:                      70
+
+Combinational area:                688.665606
+Buf/Inv area:                       72.676802
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   688.665606
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  --------------------------------
+PositAdder                         688.6656    100.0  225.7920     0.0000  0.0000  PositAdder
+FractionNormalizer                  68.4432      9.9   68.4432     0.0000  0.0000  Normalizer_ZO_7_7_7_F0_uid14
+PositEncoder                        83.0256     12.1   41.3952     0.0000  0.0000  PositHUBFastEncoder_8_2_F0_uid16
+PositEncoder/RegimeGenerator        41.6304      6.0   41.6304     0.0000  0.0000  RightShifter6_by_max_6_F0_uid18
+RightShifterFraction                41.3952      6.0   41.3952     0.0000  0.0000  RightShifter6_by_max_6_F0_uid12
+X_decoder                          100.6656     14.6   22.1088     0.0000  0.0000  PositHUBFastDecoder_8_2_F0_uid4
+X_decoder/RegimeCounter             78.5568     11.4   78.5568     0.0000  0.0000  Normalizer_ZO_7_7_7_F0_uid6
+Y_decoder                           90.3168     13.1   19.9920     0.0000  0.0000  PositHUBFastDecoder_8_2_F0_uid8
+Y_decoder/RegimeCounter             70.3248     10.2   70.3248     0.0000  0.0000  Normalizer_ZO_7_7_7_F0_uid10
+sub_624                             79.0272     11.5   79.0272     0.0000  0.0000  PositAdder_DW01_sub_2
+--------------------------------  ---------  -------  --------  ---------  ------  --------------------------------
+Total                                                 688.6656     0.0000  0.0000
+
+1

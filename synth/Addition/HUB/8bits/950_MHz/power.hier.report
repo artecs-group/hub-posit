@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : PositAdder
+Version: O-2018.06-SP4
+Date   : Mon Jul  3 12:17:22 2023
+****************************************
+
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+PositAdder             ZeroWireload      tcbn45gsbwp12tml
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+PositAdder                                0.105    0.211 6.88e+05    1.004 100.0
+  sub_624 (PositAdder_DW01_sub_2)      1.62e-02 2.96e-02 8.13e+04    0.127  12.7
+  PositEncoder (PositHUBFastEncoder_8_2_F0_uid16)
+                                       7.48e-03 1.75e-02 7.04e+04 9.54e-02   9.5
+    RegimeGenerator (RightShifter6_by_max_6_F0_uid18)
+                                       5.07e-03 9.94e-03 2.55e+04 4.05e-02   4.0
+  FractionNormalizer (Normalizer_ZO_7_7_7_F0_uid14)
+                                       9.44e-03 2.18e-02 6.11e+04 9.24e-02   9.2
+  RightShifterFraction (RightShifter6_by_max_6_F0_uid12)
+                                       9.00e-03 1.61e-02 3.60e+04 6.11e-02   6.1
+  Y_decoder (PositHUBFastDecoder_8_2_F0_uid8)
+                                       9.35e-03 2.86e-02 1.20e+05    0.158  15.7
+    RegimeCounter (Normalizer_ZO_7_7_7_F0_uid10)
+                                       6.89e-03 2.11e-02 9.24e+04    0.120  12.0
+  X_decoder (PositHUBFastDecoder_8_2_F0_uid4)
+                                       9.19e-03 2.60e-02 1.20e+05    0.155  15.5
+    RegimeCounter (Normalizer_ZO_7_7_7_F0_uid6)
+                                       6.86e-03 2.08e-02 9.69e+04    0.125  12.4
+1

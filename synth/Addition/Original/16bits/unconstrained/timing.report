@@ -6,7 +6,7 @@ Report : timing
         -max_paths 1
 Design : PositAdder
 Version: O-2018.06-SP4
-Date   : Tue Oct 25 19:13:01 2022
+Date   : Mon Jul  3 12:46:39 2023
 ****************************************
 
 Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml

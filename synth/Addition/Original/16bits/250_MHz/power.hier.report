@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : PositAdder
+Version: O-2018.06-SP4
+Date   : Mon Jul  3 12:47:50 2023
+****************************************
+
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+PositAdder             ZeroWireload      tcbn45gsbwp12tml
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+PositAdder                                0.200    0.422 1.15e+06    1.769 100.0
+  sub_690 (PositAdder_DW01_sub_1)      3.48e-03 1.36e-02 6.43e+04 8.14e-02   4.6
+  add_707 (PositAdder_DW01_add_0)      9.79e-03 3.51e-02 1.30e+05    0.175   9.9
+  add_0_root_add_720 (PositAdder_DW01_inc_0)
+                                       3.06e-03 6.87e-03 3.31e+04 4.31e-02   2.4
+  PositEncoder (PositFastEncoder_16_2_F0_uid16)
+                                       3.96e-02    0.101 2.28e+05    0.369  20.9
+    RegimeGenerator (RightShifterSticky15_by_max_15_F0_uid18)
+                                       3.21e-02 5.30e-02 9.27e+04    0.178  10.1
+  FractionNormalizer (Normalizer_ZO_16_16_15_F0_uid14)
+                                       3.60e-02 7.68e-02 1.39e+05    0.252  14.3
+  RightShifterFraction (RightShifterSticky15_by_max_15_F0_uid12)
+                                       3.67e-02 5.18e-02 8.87e+04    0.177  10.0
+  Y_decoder (PositFastDecoder_16_2_F0_uid8)
+                                       1.67e-02 3.76e-02 1.65e+05    0.219  12.4
+    RegimeCounter (Normalizer_ZO_14_14_14_F0_uid10)
+                                       1.42e-02 3.04e-02 1.33e+05    0.178  10.0
+  X_decoder (PositFastDecoder_16_2_F0_uid4)
+                                       1.66e-02 3.77e-02 1.65e+05    0.219  12.4
+    RegimeCounter (Normalizer_ZO_14_14_14_F0_uid6)
+                                       1.42e-02 3.04e-02 1.33e+05    0.178  10.0
+1
