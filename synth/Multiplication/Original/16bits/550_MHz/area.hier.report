@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : area
+Design : PositMult
+Version: O-2018.06-SP4
+Date   : Mon Jul  3 14:10:52 2023
+****************************************
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+Number of ports:                          466
+Number of nets:                          1439
+Number of cells:                          876
+Number of combinational cells:            866
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        108
+Number of references:                      26
+
+Combinational area:               1916.174409
+Buf/Inv area:                       78.086402
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  1916.174409
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------------------------
+PositMult                         1916.1744    100.0    77.8512     0.0000  0.0000  PositMult
+FracMultiplier                    1191.9936     62.2     0.7056     0.0000  0.0000  IntMultiplier_F0_uid12
+FracMultiplier/mult_308           1191.2880     62.2  1094.6208     0.0000  0.0000  IntMultiplier_F0_uid12_DW02_mult_0
+FracMultiplier/mult_308/FS_1        96.6672      5.0    96.6672     0.0000  0.0000  IntMultiplier_F0_uid12_DW01_add_0
+PositEncoder                       241.3152     12.6   103.2528     0.0000  0.0000  PositFastEncoder_16_2_F0_uid15
+PositEncoder/RegimeGenerator       138.0624      7.2   138.0624     0.0000  0.0000  RightShifterSticky15_by_max_15_F0_uid17
+X_decoder                          167.4624      8.7    26.1072     0.0000  0.0000  PositFastDecoder_16_2_F0_uid4
+X_decoder/RegimeCounter            141.3552      7.4   141.3552     0.0000  0.0000  Normalizer_ZO_14_14_14_F0_uid6
+Y_decoder                          188.1600      9.8    26.1072     0.0000  0.0000  PositFastDecoder_16_2_F0_uid8
+Y_decoder/RegimeCounter            162.0528      8.5   162.0528     0.0000  0.0000  Normalizer_ZO_14_14_14_F0_uid10
+add_0_root_add_0_root_add_578_2     49.3920      2.6    49.3920     0.0000  0.0000  PositMult_DW01_add_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------------------------
+Total                                                 1916.1744     0.0000  0.0000
+
+1
