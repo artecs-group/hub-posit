@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -rf results
-mkdir -p results
+# rm -rf results
+# mkdir -p results
 
 bash myAreaScript.sh
 bash myPowerScript.sh

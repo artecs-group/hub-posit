@@ -7,7 +7,7 @@ echo "My area report script"
 touch results/area.csv
 R="$PWD/results/area.csv"
 
-for w in 32
+for w in 8 16 #32
 do
 # try different timing constraints
 for f in unconstrained 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000
