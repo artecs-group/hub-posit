@@ -3,24 +3,27 @@
 #include <random>   // for random_device, uniform_X_distribution
 #include <universal/number/posit/posit.hpp>
 #include <universal/internal/bitblock/bitblock.hpp>
+// #include <omp.h>
 
 #include <assert.h>   // assert
 
-#define N 32
-#define EXTRA 2*(N)
+#define N 16
+#define EXTRA N+8
 #define SUPER 2*(EXTRA)
-// #define SAMPLES 1000000 // 1 million
-#define SAMPLES 100000000 // 100 million
+// #define SAMPLES 10000 // 0.01 million
+#define SAMPLES 1000000 // 1 million
+// #define SAMPLES 100000000 // 100 million
+// #define SAMPLES 10000000000 // 1e10
 // #define DEBUG
 // #define DOUBLE_SAMPLES
 
-    using Posit_t = sw::universal::posit<N,2>;
-    using Posit_HUB_t = sw::universal::posit<N+1,2>;
-    using Posit_extra_t = sw::universal::posit<EXTRA,2>;
-    using Posit_super_t = sw::universal::posit<SUPER,2>;    // We need an extra size accumulator so that rounding does not affect the result, and we can truncate the result
+using Posit_t = sw::universal::posit<N,2>;
+using Posit_HUB_t = sw::universal::posit<N+1,2>;
+using Posit_extra_t = sw::universal::posit<EXTRA,2>;
+using Posit_super_t = sw::universal::posit<SUPER,2>;    // We need an extra size accumulator so that rounding does not affect the result, and we can truncate the result
 
 template<typename Real_t1, typename Real_t2>
-long double get_error(Real_t1 golden, Real_t2 computed){
+inline long double get_error(Real_t1 golden, Real_t2 computed){
     // if (abs(golden) >= 1){
     //     // Relative error
     //     return std::abs(((long double)(golden) - (long double)(computed))) / std::abs((long double)(golden));
@@ -29,8 +32,8 @@ long double get_error(Real_t1 golden, Real_t2 computed){
     //     // Error
     //     return ((long double)(golden) - (long double)(computed));
     // }
-    // return ((long double)(golden) - (long double)(computed));
-    return ((long double)(golden) - (long double)(computed)) / std::abs((long double)(golden));
+    // return ((long double)(golden) - (long double)(computed));    // Absolute error
+    return ((long double)(golden) - (long double)(computed)) / std::abs((long double)(golden)); // relative error
     // return std::abs(((long double)(golden) - (long double)(computed))) / std::abs((long double)(golden));
 }
 
@@ -115,10 +118,27 @@ int main(int argc, char *argv[]) {
     // const uint64_t max_k = (1ULL<<(EXTRA-1ULL)) + ((1ULL<<(EXTRA-1ULL))-1ULL);//((1ULL<<63)-1) + (1ULL<<63);
 
     // const uint64_t max_k = (1ULL<<(EXTRA-2ULL));    // 1 in posit
+    // const uint64_t min_k = 0ULL;
     // const uint64_t max_k = (3ULL<<(EXTRA-3ULL));    // 16 in posit
-    // std::uniform_int_distribution<uint64_t> distr(0, max_k); // define the range
-    // bool rand_bool;
-    std::uniform_int_distribution<uint64_t> distr(0, std::numeric_limits<uint64_t>::max()); // define the range
+    
+    // const uint64_t max_k = ((1ULL<<(N-1ULL))-1ULL) << (EXTRA-N);    // max of N-bit posit, in EXTRA-bit format
+    // const uint64_t min_k = (1ULL<<(EXTRA-N));    // min of N-bit posit
+    // HUB affects only to the fraction
+    // const uint64_t max_k = ((1ULL<<(N-1ULL))-(1ULL+4ULL)) << (EXTRA-N);    // max N-bit posit with fraction bits, in EXTRA-bit format (pad with 0's)
+    // const uint64_t min_k = (4ULL<<(EXTRA-N));    // min N-bit posit with fraction bits
+    const uint64_t max_k = (2042ULL<<(N-12)) << (EXTRA-N);  // 2^30
+    const uint64_t min_k = (3ULL<<(N-12)) << (EXTRA-N);     // 2^-30
+    // const uint64_t max_k = (63ULL<<(N-7)) << (EXTRA-N);  // 2^20
+    // const uint64_t min_k = (1ULL<<(N-7)) << (EXTRA-N);   // 2^-20
+    // const uint64_t max_k = (123ULL<<(N-8)) << (EXTRA-N); // 2^15
+    // const uint64_t min_k = (5ULL<<(N-8)) << (EXTRA-N);   // 2^-15
+    // const uint64_t max_k = (27ULL<<(N-6)) << (EXTRA-N);    // 128
+    // const uint64_t min_k = (5ULL<<(N-6)) << (EXTRA-N);    // 128^-1
+    // const uint64_t max_k = ((3ULL<<(N-3ULL))-1ULL) << (EXTRA-N);    // max N-bit posit with all fraction bits, in EXTRA-bit format (pad with 0's)
+    // const uint64_t min_k = ((1ULL<<(N-3ULL))<<(EXTRA-N));    // min N-bit posit with all fraction bits
+    std::uniform_int_distribution<uint64_t> distr(min_k, max_k); // define the range, in EXTRA-bit format
+    bool rand_bool;
+    // std::uniform_int_distribution<uint64_t> distr(0, std::numeric_limits<uint64_t>::max()); // define the range
     
     // const long int max_k = (1ULL<<(EXTRA-2ULL));
     // std::uniform_int_distribution<long int> distr(- max_k, max_k); // define the range
@@ -126,7 +146,14 @@ int main(int argc, char *argv[]) {
 
     // std::uniform_real_distribution<double> distr(-10.0, 10.0); // define the range
 
+    // const double mmax = (1ULL << 47);
+    // const double mmin = (1/(2*mmax));
+    const double mmax = (1ULL << 20);
+    const double mmin = (1/mmax);
+    // const double mmax = (1ULL << 4);
+    // const double mmin = (1/mmax);
 
+// #pragma omp parallel for
     for (uint64_t i = 0; i < SAMPLES; i++){
         // Set random values as posits
         // a_fx = distr(gen);
@@ -139,10 +166,15 @@ int main(int argc, char *argv[]) {
         // Input a
         a_rnd = distr(gen);
         extra_a.setbits(a_rnd);
-        // rand_bool = std::uniform_int_distribution<>{0, 1}(gen);
-        // if (rand_bool){
-        //     extra_a = -extra_a;
-        // }
+#ifdef DEBUG
+        // std::cout << mmin << " < " << extra_a << " < " << mmax << " \n";
+        assert(mmin <= extra_a);
+        assert(extra_a <= mmax);
+#endif
+        rand_bool = std::uniform_int_distribution<>{0, 1}(gen);
+        if (rand_bool){
+            extra_a = -extra_a;
+        }
         // // double a_rnd2 = distr(gen);
         // // extra_a = a_rnd2;
         a = to_posit<Posit_extra_t, Posit_t>(extra_a);
@@ -152,10 +184,15 @@ int main(int argc, char *argv[]) {
         // Input b
         b_rnd = distr(gen);
         extra_b.setbits(b_rnd);
-        // rand_bool = std::uniform_int_distribution<>{0, 1}(gen);
-        // if (rand_bool){
-        //     extra_b = -extra_b;
-        // }
+#ifdef DEBUG
+        // std::cout << mmin << " < " << extra_b << " < " << mmax << " \n";
+        assert(mmin <= extra_b);
+        assert(extra_b <= mmax);
+#endif
+        rand_bool = std::uniform_int_distribution<>{0, 1}(gen);
+        if (rand_bool){
+            extra_b = -extra_b;
+        }
         // // double b_rnd2 = distr(gen);
         // // extra_b = b_rnd2;
         b = to_posit<Posit_extra_t, Posit_t>(extra_b);
@@ -194,28 +231,43 @@ int main(int argc, char *argv[]) {
             r_HUB = a_HUB;
         }
         else {
-            return -1;
+            // return -1;
         }
 
 
         // Print results
 #ifdef DEBUG
-    if (((1e6 < std::abs(get_error(r_gold, r_posit))) || (1e10 < get_error(r_gold, r_HUB))) && (abs(r_gold) < 1e15)){
+    // if (1e5 < abs(r_gold)){
+    // if (((1e1 < std::abs(get_error(r_gold, r_posit))) || (1e1 < get_error(r_gold, r_HUB))) && (abs(r_gold) < 1e15)){
         std::cout << "\n$$$$$\n" << extra_a.get() << " " << extra_b.get() << " " << extra_r.get() << " \n";
         std::cout << a_rnd << " " << b_rnd << " " << extra_a << " " << extra_b << " \n";
-        std::cout << (a_rnd<6917529027641081856ULL) << " " << (b_rnd<6917529027641081856ULL) << " \n";
+        // std::cout << (a_rnd<6917529027641081856ULL) << " " << (b_rnd<6917529027641081856ULL) << " \n";
         std::cout << a.get() << " " << b.get() << " " << r_posit.get() << " \n";
         std::cout << a_HUB.get() << " " << b_HUB.get() << " " << r_HUB.get() << " \n";
         // std::cout << a_SUPER.get() << " " << b_SUPER.get() << " " << r_gold.get() << " \n";
         std::cout << r_gold << ", " << r_posit << ", " << r_HUB << " \n";
         std::cout << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) << std::endl;
-        return -1;
-    }
+    //     return -1;
+    // }
 #endif
         // std::cout << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) << std::endl;
         // std::cout << "\n\n" << (a_rnd<6917529027641081856ULL) << " " << (b_rnd<6917529027641081856ULL) << " " << extra_a << " " << extra_b << " \n";
-        std::cout << r_gold <<  "," << r_posit <<  "," << r_HUB << "," << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) << std::endl;
+
+// // #pragma omp single
+// #pragma omp critical
+// {
+        std::cout << r_gold <<  "," << r_posit <<  "," << r_HUB << "," << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) <<  "," << extra_a <<  "," << extra_b << std::endl;
+// }
+
+//     std::stringstream buf;
+//     buf << r_gold <<  "," << r_posit <<  "," << r_HUB << "," << get_error(r_gold, r_posit) <<  "," << get_error(r_gold, r_HUB) <<  "," << extra_a <<  "," << extra_b << "\n";
+
+// #pragma omp critical
+//     std::cout << buf.rdbuf();
+
     }
+
+    
 //         a = a_rnd;
 //         ilsb_a = (a.iszero() || a.isnar()) ? 0ULL : 1ULL; // Keep exceptions
 //         // a_HUB.setbits(((a.get().to_ullong())<<1) | ilsb_a);

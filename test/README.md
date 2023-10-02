@@ -1,3 +1,5 @@
+This sources rely on the [Universal Numbers Library](https://github.com/stillwater-sc/universal/tree/main). Modify the Makefile to include the directory whith the library headers.
+
 Build the program with
 ```bash
 mkdir build && cd build
