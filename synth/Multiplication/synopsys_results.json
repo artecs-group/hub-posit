@@ -7,8 +7,8 @@
         "Area": 7468.305652,
         "Power": 14.1893,
         "Delay": 3.46,
-        "Energy": 49094.977999999996,
-        "ADP": 25840.33755592
+        "Energy": 49094.978,
+        "ADP": 25840.3375559
     },
     {
         "Design": "Multiplication_Original",
@@ -18,8 +18,8 @@
         "Area": 7544.980847,
         "Power": 14.7186,
         "Delay": 3.53,
-        "Energy": 51956.657999999996,
-        "ADP": 26633.782389909997
+        "Energy": 51956.658,
+        "ADP": 26633.7823899
     },
     {
         "Design": "Multiplication_Original",
@@ -29,8 +29,8 @@
         "Area": 7544.980847,
         "Power": 14.729,
         "Delay": 3.53,
-        "Energy": 51993.36999999999,
-        "ADP": 26633.782389909997
+        "Energy": 51993.37,
+        "ADP": 26633.7823899
     },
     {
         "Design": "Multiplication_Original",
@@ -41,7 +41,7 @@
         "Power": 13.9037,
         "Delay": 3.33,
         "Energy": 46299.321,
-        "ADP": 25159.24772784
+        "ADP": 25159.2477278
     },
     {
         "Design": "Multiplication_Original",
@@ -52,7 +52,7 @@
         "Power": 15.1352,
         "Delay": 2.85,
         "Energy": 43135.32,
-        "ADP": 23214.522479400002
+        "ADP": 23214.5224794
     },
     {
         "Design": "Multiplication_Original",
@@ -74,7 +74,7 @@
         "Power": 17.3583,
         "Delay": 2.22,
         "Energy": 38535.426,
-        "ADP": 20084.269317420003
+        "ADP": 20084.2693174
     },
     {
         "Design": "Multiplication_Original",
@@ -95,8 +95,8 @@
         "Area": 11840.438565,
         "Power": 24.7435,
         "Delay": 1.82,
-        "Energy": 45033.170000000006,
-        "ADP": 21549.598188300002
+        "Energy": 45033.17,
+        "ADP": 21549.5981883
     },
     {
         "Design": "Multiplication_Original",
@@ -118,7 +118,7 @@
         "Power": 25.4849,
         "Delay": 1.72,
         "Energy": 43834.028,
-        "ADP": 21707.42678324
+        "ADP": 21707.4267832
     },
     {
         "Design": "Multiplication_Original",
@@ -128,8 +128,8 @@
         "Area": 12552.388968,
         "Power": 25.5347,
         "Delay": 1.69,
-        "Energy": 43153.643000000004,
-        "ADP": 21213.537355919998
+        "Energy": 43153.643,
+        "ADP": 21213.5373559
     },
     {
         "Design": "Multiplication_Original",
@@ -139,8 +139,8 @@
         "Area": 12621.537777,
         "Power": 25.42,
         "Delay": 1.73,
-        "Energy": 43976.600000000006,
-        "ADP": 21835.26035421
+        "Energy": 43976.6,
+        "ADP": 21835.2603542
     },
     {
         "Design": "Multiplication_Original",
@@ -151,7 +151,7 @@
         "Power": 25.0561,
         "Delay": 1.72,
         "Energy": 43096.492,
-        "ADP": 21376.10525412
+        "ADP": 21376.1052541
     },
     {
         "Design": "Multiplication_Original",
@@ -162,7 +162,7 @@
         "Power": 24.1923,
         "Delay": 1.71,
         "Energy": 41368.833,
-        "ADP": 20763.564499800003
+        "ADP": 20763.5644998
     },
     {
         "Design": "Multiplication_Original",
@@ -173,7 +173,7 @@
         "Power": 25.5597,
         "Delay": 1.71,
         "Energy": 43707.087,
-        "ADP": 21705.49815012
+        "ADP": 21705.4981501
     },
     {
         "Design": "Multiplication_Original",
@@ -183,8 +183,8 @@
         "Area": 12839.803365,
         "Power": 26.1712,
         "Delay": 1.71,
-        "Energy": 44752.75199999999,
-        "ADP": 21956.06375415
+        "Energy": 44752.752,
+        "ADP": 21956.0637542
     },
     {
         "Design": "Multiplication_Original",
@@ -194,8 +194,8 @@
         "Area": 13034.078558,
         "Power": 26.4982,
         "Delay": 1.69,
-        "Energy": 44781.958000000006,
-        "ADP": 22027.59276302
+        "Energy": 44781.958,
+        "ADP": 22027.592763
     },
     {
         "Design": "Multiplication_Original",
@@ -217,7 +217,7 @@
         "Power": 26.8502,
         "Delay": 1.7,
         "Energy": 45645.34,
-        "ADP": 22384.642825199997
+        "ADP": 22384.6428252
     },
     {
         "Design": "Multiplication_Original",
@@ -227,7 +227,7 @@
         "Area": 12127.61777,
         "Power": 24.2415,
         "Delay": 1.73,
-        "Energy": 41937.79499999999,
+        "Energy": 41937.795,
         "ADP": 20980.7787421
     },
     {
@@ -238,8 +238,492 @@
         "Area": 12880.963378,
         "Power": 26.1512,
         "Delay": 1.73,
-        "Energy": 45241.575999999994,
-        "ADP": 22284.06664394
+        "Energy": 45241.576,
+        "ADP": 22284.0666439
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 0,
+        "Slack": "MET",
+        "Area": 516.499201,
+        "Power": 0.6639,
+        "Delay": 1.06,
+        "Energy": 703.734,
+        "ADP": 547.48915306
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 200,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 250,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 300,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 350,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8421,
+        "Delay": 1.08,
+        "Energy": 909.468,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 400,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 450,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 500,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 550,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 600,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 650,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 700,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 750,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 800,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8423,
+        "Delay": 1.08,
+        "Energy": 909.684,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 850,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8418,
+        "Delay": 1.08,
+        "Energy": 909.144,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 900,
+        "Slack": "MET",
+        "Area": 511.0896,
+        "Power": 0.8427,
+        "Delay": 1.08,
+        "Energy": 910.116,
+        "ADP": 551.976768
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 950,
+        "Slack": "MET",
+        "Area": 516.7344,
+        "Power": 0.7846,
+        "Delay": 1.05,
+        "Energy": 823.83,
+        "ADP": 542.57112
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 1000,
+        "Slack": "MET",
+        "Area": 541.900801,
+        "Power": 0.7997,
+        "Delay": 1.0,
+        "Energy": 799.7,
+        "ADP": 541.900801
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 1050,
+        "Slack": "MET",
+        "Area": 572.476801,
+        "Power": 0.8691,
+        "Delay": 0.95,
+        "Energy": 825.645,
+        "ADP": 543.85296095
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 1100,
+        "Slack": "MET",
+        "Area": 617.635203,
+        "Power": 0.8927,
+        "Delay": 0.91,
+        "Energy": 812.357,
+        "ADP": 562.04803473
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 1150,
+        "Slack": "MET",
+        "Area": 660.441605,
+        "Power": 1.008,
+        "Delay": 0.87,
+        "Energy": 876.96,
+        "ADP": 574.58419635
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 8,
+        "Freq": 1200,
+        "Slack": "MET",
+        "Area": 776.395208,
+        "Power": 1.2418,
+        "Delay": 0.83,
+        "Energy": 1030.694,
+        "ADP": 644.40802264
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 0,
+        "Slack": "MET",
+        "Area": 1883.952011,
+        "Power": 3.0313,
+        "Delay": 2.06,
+        "Energy": 6244.478,
+        "ADP": 3880.94114266
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 200,
+        "Slack": "MET",
+        "Area": 1882.070408,
+        "Power": 3.3773,
+        "Delay": 2.05,
+        "Energy": 6923.465,
+        "ADP": 3858.2443364
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 250,
+        "Slack": "MET",
+        "Area": 1882.070408,
+        "Power": 3.3773,
+        "Delay": 2.05,
+        "Energy": 6923.465,
+        "ADP": 3858.2443364
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 300,
+        "Slack": "MET",
+        "Area": 1882.070408,
+        "Power": 3.3737,
+        "Delay": 2.05,
+        "Energy": 6916.085,
+        "ADP": 3858.2443364
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 350,
+        "Slack": "MET",
+        "Area": 1882.070408,
+        "Power": 3.3772,
+        "Delay": 2.05,
+        "Energy": 6923.26,
+        "ADP": 3858.2443364
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 400,
+        "Slack": "MET",
+        "Area": 1882.070408,
+        "Power": 3.372,
+        "Delay": 2.05,
+        "Energy": 6912.6,
+        "ADP": 3858.2443364
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 450,
+        "Slack": "MET",
+        "Area": 1882.070408,
+        "Power": 3.3763,
+        "Delay": 2.05,
+        "Energy": 6921.415,
+        "ADP": 3858.2443364
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 500,
+        "Slack": "MET",
+        "Area": 1880.894408,
+        "Power": 3.1084,
+        "Delay": 1.97,
+        "Energy": 6123.548,
+        "ADP": 3705.36198376
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 550,
+        "Slack": "MET",
+        "Area": 1916.174409,
+        "Power": 3.1501,
+        "Delay": 1.82,
+        "Energy": 5733.182,
+        "ADP": 3487.43742438
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 600,
+        "Slack": "MET",
+        "Area": 2080.579218,
+        "Power": 3.4117,
+        "Delay": 1.67,
+        "Energy": 5697.539,
+        "ADP": 3474.56729406
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 650,
+        "Slack": "MET",
+        "Area": 2184.302421,
+        "Power": 3.5438,
+        "Delay": 1.54,
+        "Energy": 5457.452,
+        "ADP": 3363.82572834
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 700,
+        "Slack": "MET",
+        "Area": 2385.39843,
+        "Power": 3.9726,
+        "Delay": 1.43,
+        "Energy": 5680.818,
+        "ADP": 3411.1197549
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 750,
+        "Slack": "MET",
+        "Area": 2616.129631,
+        "Power": 4.5378,
+        "Delay": 1.33,
+        "Energy": 6035.274,
+        "ADP": 3479.45240923
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 800,
+        "Slack": "MET",
+        "Area": 2820.518431,
+        "Power": 5.0202,
+        "Delay": 1.25,
+        "Energy": 6275.25,
+        "ADP": 3525.64803875
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 850,
+        "Slack": "MET",
+        "Area": 2833.454444,
+        "Power": 5.0176,
+        "Delay": 1.18,
+        "Energy": 5920.768,
+        "ADP": 3343.47624392
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 900,
+        "Slack": "MET",
+        "Area": 2947.996836,
+        "Power": 5.2518,
+        "Delay": 1.11,
+        "Energy": 5829.498,
+        "ADP": 3272.27648796
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 950,
+        "Slack": "MET",
+        "Area": 3301.032034,
+        "Power": 6.0217,
+        "Delay": 1.05,
+        "Energy": 6322.785,
+        "ADP": 3466.0836357
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 1000,
+        "Slack": "MET",
+        "Area": 3603.264038,
+        "Power": 6.3778,
+        "Delay": 1.0,
+        "Energy": 6377.8,
+        "ADP": 3603.264038
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 1050,
+        "Slack": "VIOLATED",
+        "Area": 4098.83044,
+        "Power": 7.4985,
+        "Delay": 0.97,
+        "Energy": 7273.545,
+        "ADP": 3975.8655268
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 1100,
+        "Slack": "VIOLATED",
+        "Area": 3655.243241,
+        "Power": 6.7717,
+        "Delay": 0.95,
+        "Energy": 6433.115,
+        "ADP": 3472.48107895
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 1150,
+        "Slack": "VIOLATED",
+        "Area": 4002.868844,
+        "Power": 7.2721,
+        "Delay": 0.97,
+        "Energy": 7053.937,
+        "ADP": 3882.78277868
+    },
+    {
+        "Design": "Multiplication_Original",
+        "Bits": 16,
+        "Freq": 1200,
+        "Slack": "VIOLATED",
+        "Area": 4077.897644,
+        "Power": 7.5541,
+        "Delay": 0.96,
+        "Energy": 7251.936,
+        "ADP": 3914.78173824
     },
     {
         "Design": "Multiplication_HUB",
@@ -249,8 +733,8 @@
         "Area": 7715.736056,
         "Power": 14.7932,
         "Delay": 2.97,
-        "Energy": 43935.804000000004,
-        "ADP": 22915.73608632
+        "Energy": 43935.804,
+        "ADP": 22915.7360863
     },
     {
         "Design": "Multiplication_HUB",
@@ -261,7 +745,7 @@
         "Power": 15.3674,
         "Delay": 2.98,
         "Energy": 45794.852,
-        "ADP": 23342.64054194
+        "ADP": 23342.6405419
     },
     {
         "Design": "Multiplication_HUB",
@@ -272,7 +756,7 @@
         "Power": 15.3674,
         "Delay": 2.98,
         "Energy": 45794.852,
-        "ADP": 23342.64054194
+        "ADP": 23342.6405419
     },
     {
         "Design": "Multiplication_HUB",
@@ -283,7 +767,7 @@
         "Power": 15.3738,
         "Delay": 2.98,
         "Energy": 45813.924,
-        "ADP": 23342.64054194
+        "ADP": 23342.6405419
     },
     {
         "Design": "Multiplication_HUB",
@@ -294,7 +778,7 @@
         "Power": 14.7392,
         "Delay": 2.85,
         "Energy": 42006.72,
-        "ADP": 22355.84247105
+        "ADP": 22355.8424711
     },
     {
         "Design": "Multiplication_HUB",
@@ -304,7 +788,7 @@
         "Area": 8056.540866,
         "Power": 15.1479,
         "Delay": 2.5,
-        "Energy": 37869.74999999999,
+        "Energy": 37869.75,
         "ADP": 20141.352165
     },
     {
@@ -337,8 +821,8 @@
         "Area": 11602.651362,
         "Power": 23.9651,
         "Delay": 1.82,
-        "Energy": 43616.481999999996,
-        "ADP": 21116.82547884
+        "Energy": 43616.482,
+        "ADP": 21116.8254788
     },
     {
         "Design": "Multiplication_HUB",
@@ -359,8 +843,8 @@
         "Area": 13537.171358,
         "Power": 28.217,
         "Delay": 1.61,
-        "Energy": 45429.369999999995,
-        "ADP": 21794.84588638
+        "Energy": 45429.37,
+        "ADP": 21794.8458864
     },
     {
         "Design": "Multiplication_HUB",
@@ -371,7 +855,7 @@
         "Power": 27.4952,
         "Delay": 1.63,
         "Energy": 44817.176,
-        "ADP": 21755.43814258
+        "ADP": 21755.4381426
     },
     {
         "Design": "Multiplication_HUB",
@@ -381,8 +865,8 @@
         "Area": 13035.254574,
         "Power": 26.5292,
         "Delay": 1.67,
-        "Energy": 44303.763999999996,
-        "ADP": 21768.87513858
+        "Energy": 44303.764,
+        "ADP": 21768.8751386
     },
     {
         "Design": "Multiplication_HUB",
@@ -392,8 +876,8 @@
         "Area": 13140.388974,
         "Power": 26.6558,
         "Delay": 1.64,
-        "Energy": 43715.511999999995,
-        "ADP": 21550.23791736
+        "Energy": 43715.512,
+        "ADP": 21550.2379174
     },
     {
         "Design": "Multiplication_HUB",
@@ -404,7 +888,7 @@
         "Power": 26.3159,
         "Delay": 1.67,
         "Energy": 43947.553,
-        "ADP": 21603.51307291
+        "ADP": 21603.5130729
     },
     {
         "Design": "Multiplication_HUB",
@@ -415,7 +899,7 @@
         "Power": 24.0093,
         "Delay": 1.69,
         "Energy": 40575.717,
-        "ADP": 20460.69513293
+        "ADP": 20460.6951329
     },
     {
         "Design": "Multiplication_HUB",
@@ -426,7 +910,7 @@
         "Power": 27.57,
         "Delay": 1.67,
         "Energy": 46041.9,
-        "ADP": 22596.07824258
+        "ADP": 22596.0782426
     },
     {
         "Design": "Multiplication_HUB",
@@ -437,7 +921,7 @@
         "Power": 24.5954,
         "Delay": 1.64,
         "Energy": 40336.456,
-        "ADP": 20373.38179592
+        "ADP": 20373.3817959
     },
     {
         "Design": "Multiplication_HUB",
@@ -447,8 +931,8 @@
         "Area": 12701.270586,
         "Power": 24.9945,
         "Delay": 1.67,
-        "Energy": 41740.814999999995,
-        "ADP": 21211.12187862
+        "Energy": 41740.815,
+        "ADP": 21211.1218786
     },
     {
         "Design": "Multiplication_HUB",
@@ -459,7 +943,7 @@
         "Power": 24.4592,
         "Delay": 1.66,
         "Energy": 40602.272,
-        "ADP": 20459.808401439997
+        "ADP": 20459.8084014
     },
     {
         "Design": "Multiplication_HUB",
@@ -469,8 +953,8 @@
         "Area": 12532.396983,
         "Power": 25.2349,
         "Delay": 1.66,
-        "Energy": 41889.933999999994,
-        "ADP": 20803.77899178
+        "Energy": 41889.934,
+        "ADP": 20803.7789918
     },
     {
         "Design": "Multiplication_HUB",
@@ -481,6 +965,490 @@
         "Power": 27.6747,
         "Delay": 1.63,
         "Energy": 45109.761,
-        "ADP": 21794.92586895
+        "ADP": 21794.9258689
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 0,
+        "Slack": "MET",
+        "Area": 566.832003,
+        "Power": 0.782,
+        "Delay": 0.94,
+        "Energy": 735.08,
+        "ADP": 532.82208282
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 200,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 250,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 300,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 350,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 400,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 450,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 500,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 550,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 600,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 650,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 700,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 750,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 800,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 850,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 900,
+        "Slack": "MET",
+        "Area": 562.363201,
+        "Power": 0.9274,
+        "Delay": 0.99,
+        "Energy": 918.126,
+        "ADP": 556.73956899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 950,
+        "Slack": "MET",
+        "Area": 560.952001,
+        "Power": 0.9252,
+        "Delay": 0.99,
+        "Energy": 915.948,
+        "ADP": 555.34248099
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 1000,
+        "Slack": "MET",
+        "Area": 560.952001,
+        "Power": 0.9252,
+        "Delay": 0.99,
+        "Energy": 915.948,
+        "ADP": 555.34248099
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 1050,
+        "Slack": "MET",
+        "Area": 564.480002,
+        "Power": 0.8603,
+        "Delay": 0.95,
+        "Energy": 817.285,
+        "ADP": 536.2560019
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 1100,
+        "Slack": "MET",
+        "Area": 577.180802,
+        "Power": 0.8526,
+        "Delay": 0.91,
+        "Energy": 775.866,
+        "ADP": 525.23452982
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 1150,
+        "Slack": "MET",
+        "Area": 637.862405,
+        "Power": 0.9905,
+        "Delay": 0.87,
+        "Energy": 861.735,
+        "ADP": 554.94029235
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 8,
+        "Freq": 1200,
+        "Slack": "MET",
+        "Area": 648.446405,
+        "Power": 1.0387,
+        "Delay": 0.83,
+        "Energy": 862.121,
+        "ADP": 538.21051615
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 0,
+        "Slack": "MET",
+        "Area": 1984.382411,
+        "Power": 3.3403,
+        "Delay": 1.79,
+        "Energy": 5979.137,
+        "ADP": 3552.04451569
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 200,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6129,
+        "Delay": 1.79,
+        "Energy": 6467.091,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 250,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6129,
+        "Delay": 1.79,
+        "Energy": 6467.091,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 300,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6118,
+        "Delay": 1.79,
+        "Energy": 6465.122,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 350,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6129,
+        "Delay": 1.79,
+        "Energy": 6467.091,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 400,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6102,
+        "Delay": 1.79,
+        "Energy": 6462.258,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 450,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6129,
+        "Delay": 1.79,
+        "Energy": 6467.091,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 500,
+        "Slack": "MET",
+        "Area": 2001.31681,
+        "Power": 3.6129,
+        "Delay": 1.79,
+        "Energy": 6467.091,
+        "ADP": 3582.3570899
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 550,
+        "Slack": "MET",
+        "Area": 1998.96481,
+        "Power": 3.6057,
+        "Delay": 1.79,
+        "Energy": 6454.203,
+        "ADP": 3578.1470099
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 600,
+        "Slack": "MET",
+        "Area": 1993.790412,
+        "Power": 3.3611,
+        "Delay": 1.67,
+        "Energy": 5613.037,
+        "ADP": 3329.62998804
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 650,
+        "Slack": "MET",
+        "Area": 2111.390414,
+        "Power": 3.5445,
+        "Delay": 1.54,
+        "Energy": 5458.53,
+        "ADP": 3251.54123756
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 700,
+        "Slack": "MET",
+        "Area": 2241.456029,
+        "Power": 3.945,
+        "Delay": 1.43,
+        "Energy": 5641.35,
+        "ADP": 3205.28212147
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 750,
+        "Slack": "MET",
+        "Area": 2404.214441,
+        "Power": 4.1166,
+        "Delay": 1.33,
+        "Energy": 5475.078,
+        "ADP": 3197.60520653
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 800,
+        "Slack": "MET",
+        "Area": 2578.027232,
+        "Power": 4.4278,
+        "Delay": 1.25,
+        "Energy": 5534.75,
+        "ADP": 3222.53404
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 850,
+        "Slack": "MET",
+        "Area": 3065.36163,
+        "Power": 5.6934,
+        "Delay": 1.18,
+        "Energy": 6718.212,
+        "ADP": 3617.1267234
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 900,
+        "Slack": "MET",
+        "Area": 3073.123241,
+        "Power": 5.6927,
+        "Delay": 1.11,
+        "Energy": 6318.897,
+        "ADP": 3411.16679751
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 950,
+        "Slack": "MET",
+        "Area": 3372.53284,
+        "Power": 6.3537,
+        "Delay": 1.05,
+        "Energy": 6671.385,
+        "ADP": 3541.159482
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 1000,
+        "Slack": "MET",
+        "Area": 3302.678437,
+        "Power": 5.9831,
+        "Delay": 1.0,
+        "Energy": 5983.1,
+        "ADP": 3302.678437
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 1050,
+        "Slack": "VIOLATED",
+        "Area": 3501.422448,
+        "Power": 6.2808,
+        "Delay": 1.01,
+        "Energy": 6343.608,
+        "ADP": 3536.43667248
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 1100,
+        "Slack": "VIOLATED",
+        "Area": 3850.929645,
+        "Power": 7.0242,
+        "Delay": 0.96,
+        "Energy": 6743.232,
+        "ADP": 3696.8924592
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 1150,
+        "Slack": "VIOLATED",
+        "Area": 4133.169653,
+        "Power": 7.499,
+        "Delay": 0.93,
+        "Energy": 6974.07,
+        "ADP": 3843.84777729
+    },
+    {
+        "Design": "Multiplication_HUB",
+        "Bits": 16,
+        "Freq": 1200,
+        "Slack": "VIOLATED",
+        "Area": 4618.387247,
+        "Power": 8.2937,
+        "Delay": 0.9,
+        "Energy": 7464.33,
+        "ADP": 4156.5485223
     }
 ]
